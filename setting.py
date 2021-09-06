@@ -11,6 +11,7 @@ def define_parser():
     # Data가 들어있는 폴더 혹은 파일 지정
     args.path = "./data"
     args.output_plot = "./plot"
+    args.output_csv = "./result"
 
     # wandb setting
     args.project_name = "WT_Test"
