@@ -1,6 +1,6 @@
 name: Lint Code Base
 
-on: push
+on: [push, pull_request]
 
 jobs:
   # Set the job key. The key is displayed as the job name
@@ -22,7 +22,7 @@ jobs:
 
       # Runs the Super-Linter action
       - name: Lint Code Base
-        uses: github/super-linter@v3
+        uses: github/super-linter@v4
         env:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
