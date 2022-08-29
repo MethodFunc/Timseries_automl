@@ -1,7 +1,5 @@
 # AUTOML with wandb
 
-Company: A2M
-
 Name: Kwak Pil Jong - MethodFunc
 
 Date: 2021.09.06
